@@ -1,0 +1,23 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'socketIOS' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for socketIOS
+  pod 'Socket.IO-Client-Swift', '~> 16.0'
+  pod 'PromiseKit'
+  pod 'RxSwift'
+  pod 'RxCocoa'
+  pod 'SwiftProtobuf', '~> 1.15'
+  target 'socketIOSTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'socketIOSUITests' do
+    # Pods for testing
+  end
+
+end

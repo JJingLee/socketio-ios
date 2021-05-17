@@ -1,0 +1,6 @@
+
+syntax = "proto3";
+ 
+message AwesomeMessage {
+    string awesome_field = 1;
+}
